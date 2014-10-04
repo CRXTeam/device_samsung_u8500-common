@@ -499,3 +499,8 @@ on property:sys.perf.profile=2
     write /sys/devices/system/cpu/cpu1/online 1
     write /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor performance
     write /sys/devices/system/cpu/cpu1/cpufreq/scaling_governor performance
+    
+on property:dev.bootcomplete=1
+    # CPU FREQ TILE
+    chmod 666 /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq
+    chmod 666 /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq
