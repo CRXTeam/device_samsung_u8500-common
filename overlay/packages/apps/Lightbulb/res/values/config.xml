@@ -17,5 +17,8 @@
 -->
 <resources>
     <!-- Camera flash (App) -->
-    <bool name="camera_has_flash">true</bool>
+    <bool name="camera_has_flash">false</bool>
 </resources>
+<!-- Full path to the sysfs toggle -->
+
+<string name="flashDevice">/sys/class/sec/flash/enable</string>
