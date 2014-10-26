@@ -17,7 +17,7 @@
 -->
 <resources>
     <!-- Camera flash (App) -->
-    <bool name="camera_has_flash">false</bool>
+    <bool name="camera_has_flash">true</bool>
 </resources>
 <!-- Full path to the sysfs toggle -->
 
